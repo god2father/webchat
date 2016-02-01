@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微名片首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+    <link href="css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--搜索与logo-->
+<div class="index-top-bar">
+    <div class="index-logo">
+        <img src="images/logo.jpg">
+    </div>
+        <form class="index-search">
+            <input type="search" placeholder="请输入关键词、目的地">
+            <input type="submit" value="&#xf002;" class="fa">
+        </form>
+    <div class="login-register">
+        <!--<a href="#">登录</a>/<a href="#">注册</a>-->
+    <i class="fa fa-chain"></i>
+    </div>
+</div>
+<!--banner-->
+<div class="index-banner">
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/banner1.jpg">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/banner1.jpg">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <img src="images/banner1.jpg">
+                </a>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<!--首页线路内容-->
+<div class="index-container">
+        <div class=" index-container1-bg1 index-container1-bg-color1 ">
+            <a href="menu_page.html">
+               <img src="images/index-container1.png">
+               <h1>芽庄专线</h1>
+            </a>
+        </div>
+        <div class="index-container1-bg1 index-container1-bg-color2">
+            <a href="menu_page.html">
+                <img src="images/index-container1.png">
+                <h1>厦门专线</h1>
+            </a>
+        </div>
+        <div class="index-container1-bg1 index-container1-bg-color3">
+            <a href="menu_page.html">
+                <img src="images/index-container1.png">
+                <h1>巴厘岛专线</h1>
+            </a>
+        </div>
+        <div class="index-container1-bg1 index-container1-bg-color4">
+            <a href="menu_page.html">
+                <img src="images/index-container1.png">
+                <h1>越南专线</h1>
+            </a>
+        </div>
+        <div class="index-container1-bg1 index-container1-bg-color5">
+            <a href="menu_page.html">
+                <img src="images/index-container1.png">
+                <h1>岘港专线</h1>
+            </a>
+        </div>
+        <div class="index-container1-bg1 index-container1-bg-color6">
+            <a href="menu_page.html">
+                <img src="images/index-container2.png">
+                <h1>热推产品</h1>
+            </a>
+        </div>
+</div>
+<!--首页精品线路-->
+<div class="index-container">
+    <!-- 标题-->
+    <div class="index-jpxl-title">
+        精品线路
+    </div>
+    <!-- 内容-->
+
+        <div class="index-jpxl-item">
+            <div class="index-jpxl-item-img">
+                <a href="#"><img src="images/index-list1.jpg"></a>
+                <div class="index-jpxl-img-title">
+                    <p>会玩海南</p>
+                </div>
+            </div>
+        </div>
+     <div class="index-jpxl-item">
+         <div class="index-jpxl-item-txt">
+             <p><a href="details_page.html"> 三亚2+2半自助双飞五日游 QD-HKMJ</a></p>
+             <p><b>￥3200</b></p>
+         </div>
+         <div class="index-jpxl-item-txt">
+             <p><a href="details_page.html"> 三亚2+2半自助双飞五日游 QD-HKMJ</a></p>
+             <!--<p><b>￥3200</b><span><i class="glyphicon glyphicon-map-marker"></i>&nbsp;徐州出发&nbsp;&nbsp;跟团游 </span></p>-->
+         </div>
+     </div>
+</div>
+<div class="index-footer">
+    技术支持：徐州溜溜云网络有限公司
+</div>
+<!--底部推广栏-->
+<div class="bottom-fix-banner">
+    <a href="#" class="bottom-fix-banner-close"><i class="fa fa-close"></i> </a>
+</div>
+<div class="bottom-fix-banner-open">
+    <a href="#"><i class="fa fa-space-shuttle"></i> </a>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        autoplay:3000
+    });
+//    推广底部
+    $(".bottom-fix-banner-close").click(function(){
+        $(".bottom-fix-banner").animate({left:'-100%'},"3000");
+        $(".bottom-fix-banner").hide("3000");
+        $(".bottom-fix-banner-open").show("slow");
+        $(".bottom-fix-banner-open").animate({left:'20px'},"3000");
+//        $(".bottom-fix-banner").hide();
+//        $(".bottom-fix-banner").fadeOut("slow");
+        return false;
+    });
+    $(".bottom-fix-banner-open").click(function(){
+        $(".bottom-fix-banner-open").animate({left:'-100px'},"3000");
+        $(".bottom-fix-banner-open").fadeOut( );
+        $(".bottom-fix-banner").show("");
+        $(".bottom-fix-banner").animate({left:'0'},"slow");
+        return false;
+    });
+</script>
+</body>
+</html>
