@@ -140,11 +140,7 @@ img{border: none;}
     line-height: 30px;
     font-size: 14px;
     color: #c0c0c0;
-<<<<<<< HEAD
-    border-radius: 0!important;
-=======
-    border-radius:0!important;
->>>>>>> origin/gh-pages
+    border-radius: 0px!important;
 }
 .index-search input[type=search]::-webkit-input-placeholder{
     font-size: 12px;
