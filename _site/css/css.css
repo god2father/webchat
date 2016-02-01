@@ -1,30 +1,30 @@
 *{margin:0;padding:0;font-size:100%;}
-/* ½ûÓÃiPhoneÖĞSafariµÄ×ÖºÅ×Ô¶¯µ÷Õû */
+/* ç¦ç”¨iPhoneä¸­Safariçš„å­—å·è‡ªåŠ¨è°ƒæ•´ */
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
-/* È¥³ıiPhoneÖĞÄ¬ÈÏµÄinputÑùÊ½ */
+/* å»é™¤iPhoneä¸­é»˜è®¤çš„inputæ ·å¼ */
 input[type="submit"],
 
 input[type="reset"],
 
 input[type="button"]{-webkit-appearance:none; resize: none;outline: none;}
-/* È¡ÏûÁ´½Ó¸ßÁÁ  */
+/* å–æ¶ˆé“¾æ¥é«˜äº®  */
 body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,
 aside, details,figcaption,figure,footer,header, menu,nav,section{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); }
-/* ÉèÖÃHTML5ÔªËØÎª¿é */
+/* è®¾ç½®HTML5å…ƒç´ ä¸ºå— */
 article, aside, details,figcaption,figure,footer,header,menu,nav,section {
     display: block;
 }
-/* Í¼Æ¬×ÔÊÊÓ¦ */
+/* å›¾ç‰‡è‡ªé€‚åº” */
 img {
     max-width: 100%;
     height: auto;
     width:auto\9; /* ie8 */
-    -ms-interpolation-mode:bicubic;/*ÎªÁËÕÕ¹ËieÍ¼Æ¬Ëõ·ÅÊ§Õæ*/
+    -ms-interpolation-mode:bicubic;/*ä¸ºäº†ç…§é¡¾ieå›¾ç‰‡ç¼©æ”¾å¤±çœŸ*/
 }
-/* ³õÊ¼»¯ */
+/* åˆå§‹åŒ– */
 body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,
 aside, details,figcaption,figure,footer,header, menu,nav,section{margin:0; padding:0; border:none;}
 body{font-family:Microsoft YaHei,Tahoma,Arial,sans-serif; color:#555;
@@ -37,12 +37,12 @@ em,i{font-style:normal;}
 strong{font-weight: normal;}
 .clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
 .clearfix{zoom:1;}
-a{text-decoration:none!important; font-family: 'ËÎÌå',Microsoft YaHei,Tahoma,Arial,sans-serif;}
+a{text-decoration:none!important; font-family: 'å®‹ä½“',Microsoft YaHei,Tahoma,Arial,sans-serif;}
 ul,ol{list-style:none;}
 h1, h2, h3, h4, h5, h6{ font-size:100%; font-family: Microsoft YaHei;}
 img{border: none;}
 .scope{min-width:320px; max-width:540px;}
-/*ÒÔÏÂÊÇ²»Í¬ÆÁÄ»´óĞ¡ÊÇ×ÖÌåµÄ±ä»¯*/
+/*ä»¥ä¸‹æ˜¯ä¸åŒå±å¹•å¤§å°æ˜¯å­—ä½“çš„å˜åŒ–*/
 @media all and (min-width: 640px)
 {
     html{
@@ -140,7 +140,7 @@ img{border: none;}
     line-height: 30px;
     font-size: 14px;
     color: #c0c0c0;
-    border-radius: 0!important;
+    border-radius: 0px!important;
 }
 .index-search input[type=search]::-webkit-input-placeholder{
     font-size: 12px;
@@ -334,7 +334,7 @@ img{border: none;}
     line-height: 35px;
     color: #999999;
 }
-/*¶ş¼¶²Ëµ¥*/
+/*äºŒçº§èœå•*/
 .menu-page-txt{
     color: #fff;
     font-size: 1.5rem;
@@ -380,7 +380,7 @@ img{border: none;}
     border-bottom: #71c2db 3px solid;
 }
 
-/*ÁĞ±íÒ³*/
+/*åˆ—è¡¨é¡µ*/
 .list-page-banner{
     width: 100%;
     height: auto;
@@ -556,7 +556,7 @@ img{border: none;}
 .list-page-list-box ul li:last-child .list-page-list{
     border-bottom: none;
 }
-/*ÏêÇéÒ³*/
+/*è¯¦æƒ…é¡µ*/
 .details-banner{
     width: 100%;
     position: relative;
@@ -780,7 +780,7 @@ img{border: none;}
 .details-xcck-title .food-hotel{
     margin-top: 10px;
 }
-/*ÏêÇéÒ³½Å²¿*/
+/*è¯¦æƒ…é¡µè„šéƒ¨*/
 .details-footer{
     position: fixed;
     min-width: 320px;
@@ -842,7 +842,7 @@ img{border: none;}
     font-weight: bold;
 }
 /**/
-/*¶©µ¥Ò³1*/
+/*è®¢å•é¡µ1*/
 .order-list1-content{
     width: 100%;
     height: auto;
@@ -994,7 +994,7 @@ img{border: none;}
     font-weight: bold;
     outline: none;
 }
-/*Ô¤¶©Ò³2*/
+/*é¢„è®¢é¡µ2*/
 .order-list2-content-picture{
     font-size: 1.4rem;
     color: #666;
@@ -1070,7 +1070,7 @@ img{border: none;}
     font-weight: bold;
     outline: none;
 }
-/*Ô¤¶©Ò³3*/
+/*é¢„è®¢é¡µ3*/
 .order-list3-content-message{
     padding: 12px 5%;
     margin-bottom: 10%;
@@ -1113,7 +1113,7 @@ img{border: none;}
     font-weight: bold;
     outline: none;
 }
-/*Ô¤¶¨Ò³4*/
+/*é¢„å®šé¡µ4*/
 .order-list4-content-title{
     padding: 1% 4%;
     border-bottom: 1px solid #d6d7d7;
@@ -1383,7 +1383,7 @@ img{border: none;}
     font-size: 1.3rem;
     color: #1a1a1a;
 }
-/*¸öÈËÖĞĞÄÊ×Ò³*/
+/*ä¸ªäººä¸­å¿ƒé¦–é¡µ*/
 .gerentitle{
     width: 100%;
     height: 11rem;
