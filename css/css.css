@@ -140,7 +140,7 @@ img{border: none;}
     line-height: 30px;
     font-size: 14px;
     color: #c0c0c0;
-    border-radius:0;
+    border-radius:0!important;
 }
 .index-search input[type=search]::-webkit-input-placeholder{
     font-size: 12px;
